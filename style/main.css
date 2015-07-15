@@ -1,0 +1,30 @@
+a:active { outline: 0;}
+a { color: #0088cc; text-decoration: none;}
+a:hover{ color: #005580; text-decoration: none;}
+
+ul{ padding: 0; margin: 0 0 10px 25px;}
+li{  line-height: 20px; list-style: none;}
+fieldset { padding: 0; margin: 0; border: 0;}
+
+.otf-poptools span { margin: 0 5px; cursor: pointer;}
+.span5{ width: 366px; display: none; float: left; margin-left: 10px;}
+.span7{float: left;}
+
+#templateTab{ margin-bottom: 0;}
+
+.template-list{ list-style-type: none; padding: 0; margin: 0;}
+.template-content{ border:1px solid #ddd; overflow-y:scroll; height: 700px; background-color: #fff; padding:5px; border-top:none;}
+.template-list li{ padding:10px; margin:3px 0; cursor: pointer;}
+.template-content div{ display: none;}
+.template-content .active{ display: block;}
+
+#temp-tpl .template-list li{ float:left; border:1px solid #ccc; margin:4px; padding:5px; position: relative;}
+#temp-tpl .template-list li .tit-pin{ position:absolute; left: 0; top: 190px; padding:0px 10px; font-size:12px; background: #f30; color:#fff;}
+
+.nav { margin-bottom: 20px; margin-left: 0; border-bottom: 1px solid #ddd;}
+.nav li{ float: left;  margin-bottom: -1px;}
+.nav li a { display: block; padding: 8px 12px 8px 12px; margin-right: 2px; line-height: 14px; line-height: 20px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;}
+.nav li a:hover { background-color: #eeeeee;}
+.nav:before,.nav:after { display: table; line-height: 0; content: ""; clear:both;}
+.nav .active a,.nav .active a:focus { color: #555555; cursor: default; background-color: #ffffff; border: 1px solid #ddd; border-bottom-color: transparent;}
+

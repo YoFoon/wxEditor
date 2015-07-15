@@ -1,0 +1,15 @@
+需要引入的库
+1. bootstrap.mim.css
+2.main.css   
+3.jquery.min.js
+4.bootstrap.min.js
+5.less.js
+6.wwei_editor.js
+
+然后初始化
+<script type="text/javascript">
+        initEditor("wx_editor","appendArea","showEdi","/index.php/Home/Index/loadtemp"); // 百度编辑框的id， 要插入地方的id , 点击显示的按钮,ajax请求地址
+</script>
+
+
+可参考 index.html
